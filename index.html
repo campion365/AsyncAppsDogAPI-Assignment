@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thinkful Dog Images API Assignment</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>1 to 50 Dogs API Assignment</h1><br>
+    <div class="formInput">
+        <form>
+            <label for="formtext" id="flabel">How Many Dogs Would You Like To See?</label><br>
+            <input type="number" id="dog-num-user-input" name="user-input" value="3" min="1" max="50" required><br>
+             <br>
+             <input type="submit" id ="button" value="Submit">
+        </form>
+    <div class= "picheader"><h2>Here are the Pictures!</h2></div>
+        <section class="api-results">
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
